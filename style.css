@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-top {
+    background-color: #292929;
+    width: 100%;
+    height: 30px;
+}
+
+header {
+    width: 100%;
+}
+
+.nav-bottom {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+figure {
+    float: left;
+    margin-left: 12px;
+}
+
+figure .logo {
+    padding: 10px;
+    float: left;
+}
+
+figure .slogan {
+    font-size: 18px;
+    font-weight: 900;
+    color: #3d2211;
+    align-items: center;
+    margin-top: 18px;
+    float: left;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+ul {
+    float: right;
+    color: #4c4c4c;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.nav-bottom {
+    height: 60px;
+}
+
+.nav-bottom ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.nav-bar li:hover {
+    background: #fb873b;
+    cursor: pointer;
+}
+
+.first a {
+    color: white;
+    background: #fb873b;
+    padding: 5px 25px;
+    margin-right: 5px;
+    border-radius: 4px;
+
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.AllButton {
+    display: flex;
+}
+
+.detail {
+    width: 1200px;
+    margin: 50px 0 50px 80px;
+    border: 1px solid red;
+
+}
+
+.detail img {
+    width: 400px;
+    height: 250px;
+    float: left;
+}
+
+aside h4 {
+    border-left: 5px solid #f58743;
+    padding: 4px;
+    color: #de7527;
+    font-size: 20px;
+}
+
+aside {
+    margin-left: 440px;
+    font-size: 17px;
+}
+
+aside .introduce {
+    line-height: 200%;
+}
